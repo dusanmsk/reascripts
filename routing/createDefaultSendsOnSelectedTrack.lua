@@ -1,4 +1,9 @@
--- reascript will create sends from selected track to all tracks which name starts with 'SEND -'
+-- @description Create routes from selected track to all tracks named "SEND -"
+-- @author dusanmsk
+-- @version 0.1
+-- @about
+--   Create routes from selected track to all tracks named "SEND -".
+--   Default volume is -inf.
 
 function isRoutedTo(track1, track2)
     local send_count = reaper.GetTrackNumSends(track1, 0)
@@ -10,7 +15,6 @@ function isRoutedTo(track1, track2)
     end
     return false
 end
-
 
 selected_track = reaper.GetSelectedTrack(0, 0)
 _, selected_track_name = reaper.GetSetMediaTrackInfo_String(selected_track, "P_NAME", "", false)
