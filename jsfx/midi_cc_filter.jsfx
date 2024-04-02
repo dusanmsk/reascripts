@@ -13,8 +13,6 @@ in_pin:none
 out_pin:none
 
 @init
-dbg1 = 0;
-dbg2 = 0;
 
 @slider
 cc1 = slider1 - 1;
