@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Repository Template" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+<index version="1" name="ReaPack Repository Template" commit="334ff15d92444febb0fa1a3a7cb416f7a80321e2">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
@@ -18,6 +18,29 @@ Markdown
       </metadata>
       <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
         <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="jsfx">
+    <reapack name="midi_cc_filter.jsfx" type="effect" desc="MIDI CC Filter - filters out all MIDI CC except specified ones">
+      <version name="0.1" author="dusanmsk" time="2024-04-03T19:17:37Z">
+        <source>https://github.com/dusanmsk/reascripts/raw/334ff15d92444febb0fa1a3a7cb416f7a80321e2/jsfx/midi_cc_filter.jsfx</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="routing">
+    <reapack name="createDefaultSendsOnSelectedTrack.lua" type="script" desc="Create routes from selected track to all tracks named &quot;SEND -&quot;">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Create routes from selected track to all tracks named "SEND -". Default volume is -inf.\par}
+}
+]]></description>
+      </metadata>
+      <version name="0.1" author="dusanmsk" time="2024-03-29T07:40:51Z">
+        <source main="main">https://github.com/dusanmsk/reascripts/raw/bcc249a7108695d0f1ea2f8db6a5eab63623b9e5/routing/createDefaultSendsOnSelectedTrack.lua</source>
       </version>
     </reapack>
   </category>
