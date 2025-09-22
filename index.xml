@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="MSK ReaPack Repository" commit="ac41fb0beb3ee63cb25cfa22ee48631d8e48c80a">
+<index version="1" name="MSK ReaPack Repository" commit="dcdd1ab7dcf419ef189f721f9ca65d8a7a703bd5">
   <category name="jsfx">
     <reapack name="midi_cc_filter.jsfx" type="effect" desc="MIDI CC Filter - filters out all MIDI CC except specified ones">
       <version name="0.1" author="dusanmsk" time="2024-04-03T19:17:37Z">
@@ -16,7 +16,7 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 Useful for live performance \u8211- pad matrix on APC Key25 is used as recarm/mute controller for tracks in REAPER.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 How to use\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Name your tracks as {\f1 Whatever [X]} where {\b X} is the CC number of each pad (use MIDI monitor to see CC numbers or the example project bundled with this script). Pressing any pad will arm/unarm/mute/unmute the corresponding track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Name your tracks as {\f1 Whatever [X]} where {\b X} is the CC number of each pad (use MIDI monitor to see CC numbers or the example project bundled with this script). Pressing any pad will arm/unarm/mute/unmute the corresponding track. Volume knob (top left knob) adjusts volume of the last touched track.\par}
 }
 ]]></description>
       </metadata>
