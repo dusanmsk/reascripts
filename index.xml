@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Repository Template" commit="148772dc72b18a933eaac0eeda04ec7e8955b446">
+<index version="1" name="MSK ReaPack Repository" commit="148772dc72b18a933eaac0eeda04ec7e8955b446">
   <category name="jsfx">
     <reapack name="midi_cc_filter.jsfx" type="effect" desc="MIDI CC Filter - filters out all MIDI CC except specified ones">
       <version name="0.1" author="dusanmsk" time="2024-04-03T19:17:37Z">
