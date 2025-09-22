@@ -10,6 +10,7 @@
 --   Name your tracks as `Whatever [X]` where **X** is the CC number of each pad
 --   (use MIDI monitor to see CC numbers or the example project bundled with this script).
 --   Pressing any pad will arm/unarm/mute/unmute the corresponding track.
+--   Volume knob (top left knob) adjusts volume of the last touched track.
 
 function dbg(arg)
   local time = os.date("%Y-%m-%d %H:%M:%S")
